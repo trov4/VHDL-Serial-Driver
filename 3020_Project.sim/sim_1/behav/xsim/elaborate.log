@@ -1,0 +1,21 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 27f6863ce69b4445a2190459313f4c92 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot UartRx_tb_behav xil_defaultlib.UartRx_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture uartrx_arch of entity xil_defaultlib.UartRx [uartrx_default]
+Compiling architecture datadriver_arch of entity xil_defaultlib.dataDriver [datadriver_default]
+Compiling architecture leddriver_arch of entity xil_defaultlib.LedDriver [leddriver_default]
+Compiling architecture segregister_arch of entity xil_defaultlib.segRegister [segregister_default]
+Compiling architecture sevensegmentdriver_arch of entity xil_defaultlib.SevenSegmentDriver [sevensegmentdriver_default]
+Compiling architecture uartrx_basys3_arch of entity xil_defaultlib.UartRx_Basys3 [uartrx_basys3_default]
+Compiling architecture uartrx_tb_arch of entity xil_defaultlib.uartrx_tb
+Built simulation snapshot UartRx_tb_behav

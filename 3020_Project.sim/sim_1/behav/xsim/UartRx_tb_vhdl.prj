@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../3020_Project.srcs/sources_1/new/LedDriver.vhd" \
+"../../../../3020_Project.srcs/sources_1/imports/Downloads/SevenSegmentDriver.vhd" \
+"../../../../3020_Project.srcs/sources_1/imports/Downloads/UartRx.vhd" \
+"../../../../3020_Project.srcs/sources_1/imports/Downloads/UartRx_Basys3.vhd" \
+"../../../../3020_Project.srcs/sources_1/imports/Downloads/dataDriver.vhd" \
+"../../../../3020_Project.srcs/sources_1/imports/Downloads/segRegister.vhd" \
+"../../../../3020_Project.srcs/sim_1/imports/Downloads/UartRx_tb.vhd" \
+
+# Do not sort compile order
+nosort

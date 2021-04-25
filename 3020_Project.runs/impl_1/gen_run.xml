@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1619321683">
+  <File Type="BITSTR-BMM" Name="UartRx_Basys3_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="UartRx_Basys3_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="UartRx_Basys3_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="UartRx_Basys3_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="UartRx_Basys3.tcl"/>
+  <File Type="OPT-TIMING" Name="UartRx_Basys3_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="UartRx_Basys3_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="UartRx_Basys3_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="UartRx_Basys3_reports.tcl"/>
+  <File Type="OPT-DRC" Name="UartRx_Basys3_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="UartRx_Basys3.hwdef"/>
+  <File Type="PWROPT-DCP" Name="UartRx_Basys3_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="UartRx_Basys3_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="UartRx_Basys3_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="UartRx_Basys3_placed.dcp"/>
+  <File Type="PLACE-IO" Name="UartRx_Basys3_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="UartRx_Basys3_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="UartRx_Basys3_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="UartRx_Basys3_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="UartRx_Basys3_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="UartRx_Basys3_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="UartRx_Basys3_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="UartRx_Basys3_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="UartRx_Basys3_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="UartRx_Basys3.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="UartRx_Basys3_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="UartRx_Basys3_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="UartRx_Basys3_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="UartRx_Basys3.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="UartRx_Basys3_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="UartRx_Basys3_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="UartRx_Basys3_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="UartRx_Basys3_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="UartRx_Basys3_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="UartRx_Basys3_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="UartRx_Basys3_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="UartRx_Basys3.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="UartRx_Basys3_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="UartRx_Basys3_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="UartRx_Basys3_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="UartRx_Basys3_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="UartRx_Basys3_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="UartRx_Basys3_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="UartRx_Basys3_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="UartRx_Basys3_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="UartRx_Basys3_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="UartRx_Basys3_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="UartRx_Basys3_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="UartRx_Basys3_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="UartRx_Basys3_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="UartRx_Basys3_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="UartRx_Basys3_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="UartRx_Basys3_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="UartRx_Basys3_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="UartRx_Basys3_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="UartRx_Basys3_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="UartRx_Basys3_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="UartRx_Basys3_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="UartRx_Basys3.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="UartRx_Basys3_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="UartRx_Basys3.rbt"/>
+  <File Type="BITSTR-NKY" Name="UartRx_Basys3.nky"/>
+  <File Type="PDI-FILE" Name="UartRx_Basys3.pdi"/>
+  <File Type="RCFI_FILE" Name="UartRx_Basys3.rcfi"/>
+  <File Type="CFI_FILE" Name="UartRx_Basys3.cfi"/>
+  <File Type="RNPI_FILE" Name="UartRx_Basys3.rnpi"/>
+  <File Type="NPI_FILE" Name="UartRx_Basys3.npi"/>
+  <File Type="RBD_FILE" Name="UartRx_Basys3.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="UartRx_Basys3.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="UartRx_Basys3.sysdef"/>
+  <File Type="BG-BGN" Name="UartRx_Basys3.bgn"/>
+  <File Type="BG-DRC" Name="UartRx_Basys3.drc"/>
+  <File Type="RDI-RDI" Name="UartRx_Basys3.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/LedDriver.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/SevenSegmentDriver.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/SevenSegmentDriver.vhd"/>
+        <Attr Name="ImportTime" Val="1612896408"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/UartRx.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/UartRx.vhd"/>
+        <Attr Name="ImportTime" Val="1618853459"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/dataDriver.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/dataDriver.vhd"/>
+        <Attr Name="ImportTime" Val="1618851789"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/segRegister.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/segRegister.vhd"/>
+        <Attr Name="ImportTime" Val="1618851757"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/UartRx_Basys3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/UartRx_Basys3.vhd"/>
+        <Attr Name="ImportTime" Val="1618853477"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="UartRx_Basys3"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Labs/basys3-master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab5/Lab5.srcs/constrs_1/imports/Labs/basys3-master.xdc"/>
+        <Attr Name="ImportTime" Val="1616364564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

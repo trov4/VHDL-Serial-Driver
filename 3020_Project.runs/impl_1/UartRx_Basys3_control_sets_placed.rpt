@@ -1,0 +1,112 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat Apr 24 23:36:15 2021
+| Host         : TROV4-Laptop running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file UartRx_Basys3_control_sets_placed.rpt
+| Design       : UartRx_Basys3
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    34 |
+|    Minimum number of control sets                        |    34 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   206 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    34 |
+| >= 0 to < 4        |    25 |
+| >= 4 to < 6        |     6 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               3 |            2 |
+| No           | No                    | Yes                    |              43 |           14 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              32 |           13 |
+| Yes          | No                    | Yes                    |              28 |           26 |
+| Yes          | Yes                   | No                     |              16 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------+----------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |        Enable Signal        |               Set/Reset Signal               | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+-----------------------------+----------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[1]  | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[14] | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | UART_RX/dataOut[7]          | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | UART_RX/dataOut[3]          | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | UART_RX/dataOut[6]          | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | UART_RX/dataOut[0]          | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | UART_RX/dataOut[2]          | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | UART_RX/dataOut[4]          | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | UART_RX/dataOut[1]          | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | UART_RX/dataOut[5]          | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[12] | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[10] | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[7]  | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[9]  | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[13] | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[8]  | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[3]  | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[15] | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[6]  | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[0]  | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[2]  | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[5]  | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[4]  | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/ledEn_reg_0[11] | btnD_IBUF                                    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG |                             |                                              |                2 |              3 |         1.50 |
+|  clk_IBUF_BUFG | DATA_DRIVER/num20           | SEG_REGISTER/REGISTER_SETTER.num2[3]_i_1_n_0 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/num00           | SEG_REGISTER/REGISTER_SETTER.num0[3]_i_1_n_0 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/current_state   | btnD_IBUF                                    |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/num30           | SEG_REGISTER/REGISTER_SETTER.num3[3]_i_1_n_0 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/num10           | SEG_REGISTER/REGISTER_SETTER.num1[3]_i_1_n_0 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/internalVal0__0 |                                              |                5 |              5 |         1.00 |
+|  clk_IBUF_BUFG | DATA_DRIVER/p_0_in          |                                              |                4 |             11 |         2.75 |
+|  clk_IBUF_BUFG | DATA_DRIVER/E[0]            |                                              |                4 |             16 |         4.00 |
+|  clk_IBUF_BUFG |                             | btnD_IBUF                                    |               14 |             43 |         3.07 |
++----------------+-----------------------------+----------------------------------------------+------------------+----------------+--------------+
+
+
